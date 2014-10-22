@@ -38,7 +38,7 @@ let yellowViewConstraints = [
     NSLayoutConstraint(item: yellowView, attribute: .Top, relatedBy: .Equal, toItem: greenView, attribute: .CenterY, multiplier: 1.0, constant: 3.0),
     NSLayoutConstraint(item: yellowView, attribute: .Right, relatedBy: .Equal, toItem: greenView, attribute: .Right, multiplier: 1.0, constant: -10.0),
     NSLayoutConstraint(item: yellowView, attribute: .Bottom, relatedBy: .Equal, toItem: greenView, attribute: .Bottom, multiplier: 1.0, constant: -10.0),
-    NSLayoutConstraint(item: yellowView, attribute: .Left, relatedBy: .Equal, toItem: greenView, attribute: .Left, multiplier: 1.0, constant: 10.0)
+    NSLayoutConstraint(item: yellowView, attribute: .Left, relatedBy: .Equal, toItem: greenView,attribute: .Left, multiplier: 1.0, constant: 10.0)
 ]
 
 yellowView.setTranslatesAutoresizingMaskIntoConstraints(false)

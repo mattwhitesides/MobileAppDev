@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22AD6B419E701FC00AC11AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22AD6B319E701FC00AC11AF /* AppDelegate.swift */; };
+		F22AD6B619E701FC00AC11AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22AD6B519E701FC00AC11AF /* ViewController.swift */; };
+		F22AD6B919E701FC00AC11AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22AD6B719E701FC00AC11AF /* Main.storyboard */; };
+		F22AD6BB19E701FC00AC11AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22AD6BA19E701FC00AC11AF /* Images.xcassets */; };
+		F22AD6BE19E701FC00AC11AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22AD6BC19E701FC00AC11AF /* LaunchScreen.xib */; };
+		F22AD6CA19E701FC00AC11AF /* CloudKit101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22AD6C919E701FC00AC11AF /* CloudKit101Tests.swift */; };
+		F22AD6D519E7028100AC11AF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22AD6D419E7028100AC11AF /* CloudKit.framework */; };
+		F22AD6D719E703D300AC11AF /* CheckInHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22AD6D619E703D300AC11AF /* CheckInHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F22AD6C419E701FC00AC11AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22AD6A619E701FC00AC11AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22AD6AD19E701FC00AC11AF;
+			remoteInfo = CloudKit101;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F22AD6AE19E701FC00AC11AF /* CloudKit101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKit101.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22AD6B219E701FC00AC11AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22AD6B319E701FC00AC11AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F22AD6B519E701FC00AC11AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F22AD6B819E701FC00AC11AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F22AD6BA19E701FC00AC11AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F22AD6BD19E701FC00AC11AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F22AD6C319E701FC00AC11AF /* CloudKit101Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudKit101Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22AD6C819E701FC00AC11AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22AD6C919E701FC00AC11AF /* CloudKit101Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKit101Tests.swift; sourceTree = "<group>"; };
+		F22AD6D319E7027C00AC11AF /* CloudKit101.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudKit101.entitlements; sourceTree = "<group>"; };
+		F22AD6D419E7028100AC11AF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		F22AD6D619E703D300AC11AF /* CheckInHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckInHandler.swift; path = Model/CloudKit/CheckInHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22AD6AB19E701FC00AC11AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22AD6D519E7028100AC11AF /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22AD6C019E701FC00AC11AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22AD6A519E701FC00AC11AF = {
+			isa = PBXGroup;
+			children = (
+				F22AD6D419E7028100AC11AF /* CloudKit.framework */,
+				F22AD6B019E701FC00AC11AF /* CloudKit101 */,
+				F22AD6C619E701FC00AC11AF /* CloudKit101Tests */,
+				F22AD6AF19E701FC00AC11AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F22AD6AF19E701FC00AC11AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22AD6AE19E701FC00AC11AF /* CloudKit101.app */,
+				F22AD6C319E701FC00AC11AF /* CloudKit101Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F22AD6B019E701FC00AC11AF /* CloudKit101 */ = {
+			isa = PBXGroup;
+			children = (
+				F22AD6D319E7027C00AC11AF /* CloudKit101.entitlements */,
+				F22AD6B319E701FC00AC11AF /* AppDelegate.swift */,
+				F22AD6B519E701FC00AC11AF /* ViewController.swift */,
+				F22AD6B719E701FC00AC11AF /* Main.storyboard */,
+				F22AD6BA19E701FC00AC11AF /* Images.xcassets */,
+				F22AD6BC19E701FC00AC11AF /* LaunchScreen.xib */,
+				F22AD6B119E701FC00AC11AF /* Supporting Files */,
+				F22AD6D619E703D300AC11AF /* CheckInHandler.swift */,
+			);
+			path = CloudKit101;
+			sourceTree = "<group>";
+		};
+		F22AD6B119E701FC00AC11AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F22AD6B219E701FC00AC11AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F22AD6C619E701FC00AC11AF /* CloudKit101Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F22AD6C919E701FC00AC11AF /* CloudKit101Tests.swift */,
+				F22AD6C719E701FC00AC11AF /* Supporting Files */,
+			);
+			path = CloudKit101Tests;
+			sourceTree = "<group>";
+		};
+		F22AD6C719E701FC00AC11AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F22AD6C819E701FC00AC11AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F22AD6AD19E701FC00AC11AF /* CloudKit101 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22AD6CD19E701FC00AC11AF /* Build configuration list for PBXNativeTarget "CloudKit101" */;
+			buildPhases = (
+				F22AD6AA19E701FC00AC11AF /* Sources */,
+				F22AD6AB19E701FC00AC11AF /* Frameworks */,
+				F22AD6AC19E701FC00AC11AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudKit101;
+			productName = CloudKit101;
+			productReference = F22AD6AE19E701FC00AC11AF /* CloudKit101.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F22AD6C219E701FC00AC11AF /* CloudKit101Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22AD6D019E701FC00AC11AF /* Build configuration list for PBXNativeTarget "CloudKit101Tests" */;
+			buildPhases = (
+				F22AD6BF19E701FC00AC11AF /* Sources */,
+				F22AD6C019E701FC00AC11AF /* Frameworks */,
+				F22AD6C119E701FC00AC11AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22AD6C519E701FC00AC11AF /* PBXTargetDependency */,
+			);
+			name = CloudKit101Tests;
+			productName = CloudKit101Tests;
+			productReference = F22AD6C319E701FC00AC11AF /* CloudKit101Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22AD6A619E701FC00AC11AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Matthew Whitesides";
+				TargetAttributes = {
+					F22AD6AD19E701FC00AC11AF = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 4FNJNUQ3AD;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					F22AD6C219E701FC00AC11AF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F22AD6AD19E701FC00AC11AF;
+					};
+				};
+			};
+			buildConfigurationList = F22AD6A919E701FC00AC11AF /* Build configuration list for PBXProject "CloudKit101" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F22AD6A519E701FC00AC11AF;
+			productRefGroup = F22AD6AF19E701FC00AC11AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22AD6AD19E701FC00AC11AF /* CloudKit101 */,
+				F22AD6C219E701FC00AC11AF /* CloudKit101Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22AD6AC19E701FC00AC11AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22AD6B919E701FC00AC11AF /* Main.storyboard in Resources */,
+				F22AD6BE19E701FC00AC11AF /* LaunchScreen.xib in Resources */,
+				F22AD6BB19E701FC00AC11AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22AD6C119E701FC00AC11AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22AD6AA19E701FC00AC11AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22AD6B619E701FC00AC11AF /* ViewController.swift in Sources */,
+				F22AD6B419E701FC00AC11AF /* AppDelegate.swift in Sources */,
+				F22AD6D719E703D300AC11AF /* CheckInHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22AD6BF19E701FC00AC11AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22AD6CA19E701FC00AC11AF /* CloudKit101Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F22AD6C519E701FC00AC11AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22AD6AD19E701FC00AC11AF /* CloudKit101 */;
+			targetProxy = F22AD6C419E701FC00AC11AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F22AD6B719E701FC00AC11AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F22AD6B819E701FC00AC11AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F22AD6BC19E701FC00AC11AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F22AD6BD19E701FC00AC11AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F22AD6CB19E701FC00AC11AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F22AD6CC19E701FC00AC11AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F22AD6CE19E701FC00AC11AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudKit101/CloudKit101.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matthew Whitesides (5AH4BCY589)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CloudKit101/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F22AD6CF19E701FC00AC11AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudKit101/CloudKit101.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matthew Whitesides (5AH4BCY589)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CloudKit101/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F22AD6D119E701FC00AC11AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudKit101Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudKit101.app/CloudKit101";
+			};
+			name = Debug;
+		};
+		F22AD6D219E701FC00AC11AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudKit101Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudKit101.app/CloudKit101";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22AD6A919E701FC00AC11AF /* Build configuration list for PBXProject "CloudKit101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22AD6CB19E701FC00AC11AF /* Debug */,
+				F22AD6CC19E701FC00AC11AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22AD6CD19E701FC00AC11AF /* Build configuration list for PBXNativeTarget "CloudKit101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22AD6CE19E701FC00AC11AF /* Debug */,
+				F22AD6CF19E701FC00AC11AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22AD6D019E701FC00AC11AF /* Build configuration list for PBXNativeTarget "CloudKit101Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22AD6D119E701FC00AC11AF /* Debug */,
+				F22AD6D219E701FC00AC11AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F22AD6A619E701FC00AC11AF /* Project object */;
+}

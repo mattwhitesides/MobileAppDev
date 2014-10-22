@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6246" systemVersion="14A329r" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dme-A5-dU4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6239"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="pla-kg-46I">
+            <objects>
+                <navigationController storyboardIdentifier="rootNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dme-A5-dU4" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="why-AL-TU7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5Qu-Ii-DQe" kind="relationship" relationship="rootViewController" id="mPp-BO-GuU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SJf-65-Kzw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-916" y="295"/>
+        </scene>
+        <!--Gold View-->
+        <scene sceneID="c8q-Vm-y7t">
+            <objects>
+                <viewController storyboardIdentifier="goldViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5Qu-Ii-DQe" customClass="GoldViewController" customModule="Sep16" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aRa-oA-vJB"/>
+                        <viewControllerLayoutGuide type="bottom" id="6bw-ob-ODh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EsL-NU-W4P">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iik-bO-ZRU">
+                                <rect key="frame" x="253" y="275" width="74" height="30"/>
+                                <state key="normal" title="Go to Blue">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3JJ-BF-GBo" kind="show" id="AbA-m8-v4K"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eDx-7k-6HF">
+                                <rect key="frame" x="277" y="325" width="26" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.76450592575539655" blue="0.25653627231168741" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="eDx-7k-6HF" firstAttribute="top" secondItem="iik-bO-ZRU" secondAttribute="bottom" constant="20" id="8VD-xx-b1z"/>
+                            <constraint firstAttribute="centerX" secondItem="iik-bO-ZRU" secondAttribute="centerX" constant="10" id="BXI-b4-00P"/>
+                            <constraint firstAttribute="centerY" secondItem="iik-bO-ZRU" secondAttribute="centerY" constant="10" id="FRW-mg-VZJ"/>
+                            <constraint firstAttribute="centerX" secondItem="eDx-7k-6HF" secondAttribute="centerX" constant="10" id="g9U-Jd-0Df"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Gold View" id="h4Z-ud-Y6v">
+                        <barButtonItem key="backBarButtonItem" title="Gold" id="cpJ-Ly-HKE"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="at1-Ud-PTz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-151" y="295"/>
+        </scene>
+        <!--Blue View-->
+        <scene sceneID="O9T-gT-m3s">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="3JJ-BF-GBo" customClass="BlueViewController" customModule="Sep16" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Msd-Zv-Lw4"/>
+                        <viewControllerLayoutGuide type="bottom" id="yFW-y4-nZY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fg6-ea-aJG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.35977537256027659" green="0.78212916763434681" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Blue View" id="AF1-cO-RKa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iFz-rP-Cag" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="577" y="295"/>
+        </scene>
+    </scenes>
+</document>
