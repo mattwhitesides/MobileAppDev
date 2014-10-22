@@ -405,6 +405,7 @@
 				F28B927A19F02CD5006A2F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F28B927B19F02CD5006A2F08 /* Build configuration list for PBXNativeTarget "Tutorial1Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				F28B927D19F02CD5006A2F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
