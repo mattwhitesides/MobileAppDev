@@ -405,6 +405,7 @@
 				F239B9A819F7E58600E63CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F239B9A919F7E58600E63CC9 /* Build configuration list for PBXNativeTarget "HW2Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				F239B9AB19F7E58600E63CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
