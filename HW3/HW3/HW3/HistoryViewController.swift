@@ -9,5 +9,20 @@
 import UIKit
 
 class HistoryViewController: UIViewController {
+    @IBOutlet weak var textLabel: UILabel!
+    @IBOutlet weak var inputField: UITextField!
     
+    @IBAction func changeText(sender: AnyObject) {
+        textLabel.text = inputField.text
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
 }
