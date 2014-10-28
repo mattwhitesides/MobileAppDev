@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2426E941A000FC00044D7B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2426E931A000FC00044D7B5 /* AppDelegate.swift */; };
+		F2426E991A000FC00044D7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2426E971A000FC00044D7B5 /* Main.storyboard */; };
+		F2426E9B1A000FC00044D7B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2426E9A1A000FC00044D7B5 /* Images.xcassets */; };
+		F2426E9E1A000FC00044D7B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2426E9C1A000FC00044D7B5 /* LaunchScreen.xib */; };
+		F2426EAA1A000FC00044D7B5 /* TempConvert2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2426EA91A000FC00044D7B5 /* TempConvert2Tests.swift */; };
+		F2426EB41A000FEE0044D7B5 /* TempConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2426EB31A000FEE0044D7B5 /* TempConvertViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2426EA41A000FC00044D7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2426E861A000FBF0044D7B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2426E8D1A000FC00044D7B5;
+			remoteInfo = TempConvert2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2426E8E1A000FC00044D7B5 /* TempConvert2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempConvert2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2426E921A000FC00044D7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2426E931A000FC00044D7B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2426E981A000FC00044D7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2426E9A1A000FC00044D7B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2426E9D1A000FC00044D7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F2426EA31A000FC00044D7B5 /* TempConvert2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempConvert2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2426EA81A000FC00044D7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2426EA91A000FC00044D7B5 /* TempConvert2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConvert2Tests.swift; sourceTree = "<group>"; };
+		F2426EB31A000FEE0044D7B5 /* TempConvertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempConvertViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2426E8B1A000FC00044D7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2426EA01A000FC00044D7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2426E851A000FBF0044D7B5 = {
+			isa = PBXGroup;
+			children = (
+				F2426E901A000FC00044D7B5 /* TempConvert2 */,
+				F2426EA61A000FC00044D7B5 /* TempConvert2Tests */,
+				F2426E8F1A000FC00044D7B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2426E8F1A000FC00044D7B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2426E8E1A000FC00044D7B5 /* TempConvert2.app */,
+				F2426EA31A000FC00044D7B5 /* TempConvert2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2426E901A000FC00044D7B5 /* TempConvert2 */ = {
+			isa = PBXGroup;
+			children = (
+				F2426EB31A000FEE0044D7B5 /* TempConvertViewController.swift */,
+				F2426E931A000FC00044D7B5 /* AppDelegate.swift */,
+				F2426E971A000FC00044D7B5 /* Main.storyboard */,
+				F2426E9A1A000FC00044D7B5 /* Images.xcassets */,
+				F2426E9C1A000FC00044D7B5 /* LaunchScreen.xib */,
+				F2426E911A000FC00044D7B5 /* Supporting Files */,
+			);
+			path = TempConvert2;
+			sourceTree = "<group>";
+		};
+		F2426E911A000FC00044D7B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2426E921A000FC00044D7B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2426EA61A000FC00044D7B5 /* TempConvert2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2426EA91A000FC00044D7B5 /* TempConvert2Tests.swift */,
+				F2426EA71A000FC00044D7B5 /* Supporting Files */,
+			);
+			path = TempConvert2Tests;
+			sourceTree = "<group>";
+		};
+		F2426EA71A000FC00044D7B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2426EA81A000FC00044D7B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2426E8D1A000FC00044D7B5 /* TempConvert2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2426EAD1A000FC00044D7B5 /* Build configuration list for PBXNativeTarget "TempConvert2" */;
+			buildPhases = (
+				F2426E8A1A000FC00044D7B5 /* Sources */,
+				F2426E8B1A000FC00044D7B5 /* Frameworks */,
+				F2426E8C1A000FC00044D7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempConvert2;
+			productName = TempConvert2;
+			productReference = F2426E8E1A000FC00044D7B5 /* TempConvert2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2426EA21A000FC00044D7B5 /* TempConvert2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2426EB01A000FC00044D7B5 /* Build configuration list for PBXNativeTarget "TempConvert2Tests" */;
+			buildPhases = (
+				F2426E9F1A000FC00044D7B5 /* Sources */,
+				F2426EA01A000FC00044D7B5 /* Frameworks */,
+				F2426EA11A000FC00044D7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2426EA51A000FC00044D7B5 /* PBXTargetDependency */,
+			);
+			name = TempConvert2Tests;
+			productName = TempConvert2Tests;
+			productReference = F2426EA31A000FC00044D7B5 /* TempConvert2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2426E861A000FBF0044D7B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Matthew Whitesides";
+				TargetAttributes = {
+					F2426E8D1A000FC00044D7B5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F2426EA21A000FC00044D7B5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F2426E8D1A000FC00044D7B5;
+					};
+				};
+			};
+			buildConfigurationList = F2426E891A000FBF0044D7B5 /* Build configuration list for PBXProject "TempConvert2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2426E851A000FBF0044D7B5;
+			productRefGroup = F2426E8F1A000FC00044D7B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2426E8D1A000FC00044D7B5 /* TempConvert2 */,
+				F2426EA21A000FC00044D7B5 /* TempConvert2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2426E8C1A000FC00044D7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2426E991A000FC00044D7B5 /* Main.storyboard in Resources */,
+				F2426E9E1A000FC00044D7B5 /* LaunchScreen.xib in Resources */,
+				F2426E9B1A000FC00044D7B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2426EA11A000FC00044D7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2426E8A1A000FC00044D7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2426EB41A000FEE0044D7B5 /* TempConvertViewController.swift in Sources */,
+				F2426E941A000FC00044D7B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2426E9F1A000FC00044D7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2426EAA1A000FC00044D7B5 /* TempConvert2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2426EA51A000FC00044D7B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2426E8D1A000FC00044D7B5 /* TempConvert2 */;
+			targetProxy = F2426EA41A000FC00044D7B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2426E971A000FC00044D7B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2426E981A000FC00044D7B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2426E9C1A000FC00044D7B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2426E9D1A000FC00044D7B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2426EAB1A000FC00044D7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2426EAC1A000FC00044D7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2426EAE1A000FC00044D7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TempConvert2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2426EAF1A000FC00044D7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TempConvert2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2426EB11A000FC00044D7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TempConvert2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempConvert2.app/TempConvert2";
+			};
+			name = Debug;
+		};
+		F2426EB21A000FC00044D7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TempConvert2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempConvert2.app/TempConvert2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2426E891A000FBF0044D7B5 /* Build configuration list for PBXProject "TempConvert2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2426EAB1A000FC00044D7B5 /* Debug */,
+				F2426EAC1A000FC00044D7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2426EAD1A000FC00044D7B5 /* Build configuration list for PBXNativeTarget "TempConvert2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2426EAE1A000FC00044D7B5 /* Debug */,
+				F2426EAF1A000FC00044D7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2426EB01A000FC00044D7B5 /* Build configuration list for PBXNativeTarget "TempConvert2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2426EB11A000FC00044D7B5 /* Debug */,
+				F2426EB21A000FC00044D7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2426E861A000FBF0044D7B5 /* Project object */;
+}

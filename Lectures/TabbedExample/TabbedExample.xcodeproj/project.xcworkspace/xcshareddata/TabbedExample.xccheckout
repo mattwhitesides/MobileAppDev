@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5076D08E-B01B-4341-BFDE-AA1238D0FDBA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TabbedExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>396A8DA2E5FB79F8EA3B2100C9D061AF714921F1</key>
+		<string>https://github.com/mattwhitesides/MobileAppDev.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lectures/TabbedExample/TabbedExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>396A8DA2E5FB79F8EA3B2100C9D061AF714921F1</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mattwhitesides/MobileAppDev.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>396A8DA2E5FB79F8EA3B2100C9D061AF714921F1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>396A8DA2E5FB79F8EA3B2100C9D061AF714921F1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MobileAppDev</string>
+		</dict>
+	</array>
+</dict>
+</plist>
